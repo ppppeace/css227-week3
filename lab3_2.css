@@ -1,0 +1,42 @@
+.title {
+    color: black;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 30px;
+}
+
+.container {
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: 40% 40% 40%;
+    grid-template-rows: 40% 40% 40%;
+    max-width: 300px;
+    justify-content: center;
+}
+
+.square {
+    min-width: 100px;
+    min-height: 100px;
+    border-width: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.square.top{
+    border-bottom: 1px solid black;
+}
+
+.square.left {
+    border-right: 1px solid black;
+}
+
+.square.right{
+    border-left: 1px solid black;
+}
+
+.square.bottom {
+    border-top: 1px solid black;
+}
